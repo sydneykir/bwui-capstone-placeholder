@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Helvetica;
+  src: url('../fonts/ari.ttf') format('truetype');
+}
+
+.button:hover{
+  color:gray;
+}
+
+.top a{
+  padding: 0 30px;
+}
+
+a:hover {
+  color: #A65A4F;
+}
+
+#main h2{
+  font-size: 20px;
+  font-style: bold;
+  color: #A65A4F;
+}
+
+.product-list img{
+  padding: 0 10px;
+}
+
+.product-list img:hover{
+  border: 3px solid #334C59;
+}

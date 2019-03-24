@@ -1,0 +1,78 @@
+#main {
+  text-align: left;
+  justify-items: auto;
+}
+
+.jobs {
+  padding: 3.75rem 11.75rem 7.5625rem 11.75rem;
+}
+
+#main h2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-style: bold;
+  color: #A65A4F;
+}
+
+#main h3{
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+#main span{
+  font-style: italic;
+  color: #334C59;
+}
+
+#name {
+  padding-right: 5px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) 1fr;
+  align-items: flex-end;
+  margin-bottom: 3.125rem;
+}
+
+#main form .button {
+  height: fit-content;
+  padding: 1.14rem 0;
+}
+
+#main .button:hover {
+  color: gray;
+}
+
+.job-list {
+  border-top: solid 1px hsla(0, 0%, 59%, 1);
+}
+
+.job {
+  border-bottom: solid 1px hsla(0, 0%, 59%, 1);
+  padding: 1rem 0;
+}
+
+.job h4 {
+  padding-bottom: .5rem;
+  font-size: inherit;
+  line-height: 1.2;
+}
+
+#see-all-jobs {
+  justify-self: center;
+  margin-top: 3.6875rem;
+}
+
+footer h4 {
+  font-weight: bolder;
+  color: #334C59;
+}
+
+.top a{
+  padding: 0 30px;
+}
+
+a:hover {
+  color: #A65A4F;
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Helvetica;
+  src: url('../fonts/ari.ttf') format('truetype');
+}
+
+footer h4 {
+  font-weight: bolder;
+  color: #334C59;
+}
+
+.top a{
+  padding: 0 30px;
+}
+
+a:hover {
+  color: #A65A4F;
+}
+
+#main img:hover{
+  border: 3px solid #334C59;
+}
+
+.container img{
+  padding: 10px 10px;
+}
+
+#main .breadcrumb a:hover{
+  color: #A65A4F;
+}
